@@ -38,7 +38,7 @@ const App = () => {
                 />} 
             />
 
-            <Route 
+            {/* <Route 
               path="/2" 
               element={
                 <Chapter 
@@ -47,7 +47,7 @@ const App = () => {
                   trans={l1trans}
                   sents={l1sents}
                 />} 
-            />
+            /> */}
           </Routes >
         </ContentWrapper>
       </Router>
