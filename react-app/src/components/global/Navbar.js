@@ -46,7 +46,7 @@ function Navbar() {
       <CssBaseline />
       <Toolbar>
         <Typography variant="h4" className={classes.logo} onClick={() => {navigate('/');}}>
-          CHI312L Vocab and Patters
+          CHI312L Vocab and Patterns
         </Typography>
           <div className={classes.navlinks}>
             {range(1, NUM_CHAPS).map((page) => (
