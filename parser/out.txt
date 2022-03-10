@@ -1,0 +1,191 @@
+cd /home/broten15/Git-repos/personal/chinese-grammar-vocab/parser ; /usr/bin/env /usr/lib/jvm/java-11-openjdk-amd64/bin/java -cp /home/broten15/.vscode-server/data/User/workspaceStorage/ae2f286b6a3f961fca31c85bb01f0127/redhat.java/jdt_ws/parser_83d06aa3/bin Parser 
+
+export const l5chars = [
+  `强奸強姦`,
+  `偷窃偷竊`,
+  `结束結束`,
+  `计划計劃`,
+  `暑假`,
+  `忙着`,
+  `暑期`,
+  `准备準備`,
+  `语言語言`,
+  `外语外語`,
+  `份一份报`,
+  `短期`,
+  `经理經理`,
+  `用`,
+  `想不到`,
+  `站`,
+  `柜台櫃檯`,
+  `顾客顧客`,
+  `提钱提錢`,
+  `存钱存錢`,
+  `电子计算机電子計算機电脑`,
+  `到。。。为止到。 。 。為止`,
+  `成绩成績`,
+  `成功`,
+  `其他`,
+  `发生發生`,
+  `害怕`,
+  `照相机照相機`,
+  `被`,
+  `偷`,
+  `校园校園`,
+  `同系`,
+  `系`,
+  `班`,
+  `开会開會`,
+  `晚会晚會`,
+  `酒`,
+  `一直`,
+  `开车開車`,
+  `湖`,
+  `边邊`,
+  `聊天`,
+  `据说據說`,
+  `自愿自願`,
+  `同情`,
+  `坚持堅持`,
+  `被迫`,
+  `還`,
+  `上报上報`,
+  `警察`,
+  `报社報社`,
+  `记者記者`,
+  `生活`,
+  `影响影響`,
+  `简直`,
+  `听说聽說`,
+  `强暴`,
+  `案件`,
+  `女生`,
+  `报案報案`,
+  `可怕`,
+];
+export const l5trans = [
+  `to rape`,
+  `theft (formal)`,
+  `to end, to finish`,
+  `to plan`,
+  `summer vacation`,
+  `to be busy with`,
+  `summertime (formal)`,
+  `to prepare; to plan to`,
+  `language`,
+  `a foreign language`,
+  `measure word for jobs and other things (that apply an allotment)`,
+  `short-term`,
+  `manager`,
+  `to employ, to use`,
+  `"wasn't able to think of", unexpected`,
+  `to stand`,
+  `counter`,
+  `customer`,
+  `to withdraw money`,
+  `to deposit money, to save money`,
+  `"electronic calculating machine", computer`,
+  `up to (a certain time, place, or extent)`,
+  `grades, achievement`,
+  `to succeed`,
+  `other`,
+  `to occur, happen`,
+  `to be scared`,
+  `camera`,
+  `a passive marker`,
+  `to steal`,
+  `campus`,
+  `(to be) in the same department`,
+  `department`,
+  `class`,
+  `to attend or have a meeting`,
+  `evening party`,
+  `liquor, wine`,
+  `continuously, all through`,
+  `to drive (a car)`,
+  `lake`,
+  `side`,
+  `"talk weather", to chat`,
+  `it is said that...`,
+  `willing, voluntary`,
+  `to sympathize with`,
+  `to insist on, persist on`,
+  `to be coerced, to be forced`,
+  `still, yet, even`,
+  `to appear in the newspapers`,
+  `police`,
+  `newspaper office`,
+  `reporter`,
+  `life`,
+  `v: to influence, to affectn: impact`,
+  `simply, as in 'simply too...'`,
+  `to hear (it said)`,
+  `rape; to rape`,
+  `(criminal) case`,
+  `female student, young woman`,
+  `to report (a case) to the police`,
+  `scary, frightening`,
+];
+
+
+  强奸強姦
+  偷窃偷竊
+  结束結束
+  计划計劃
+  暑假
+  忙着
+  暑期
+  准备準備
+  语言語言
+  外语外語
+  份一份报
+  短期
+  经理經理
+  用
+  想不到
+  站
+  柜台櫃檯
+  顾客顧客
+  提钱提錢
+  存钱存錢
+  电子计算机電子計算機电脑
+  到。。。为止到。 。 。為止
+  成绩成績
+  成功
+  其他
+  发生發生
+  害怕
+  照相机照相機
+  被
+  偷
+  校园校園
+  同系
+  系
+  班
+  开会開會
+  晚会晚會
+  酒
+  一直
+  开车開車
+  湖
+  边邊
+  聊天
+  据说據說
+  自愿自願
+  同情
+  坚持堅持
+  被迫
+  還
+  上报上報
+  警察
+  报社報社
+  记者記者
+  生活
+  影响影響
+  简直
+  听说聽說
+  强暴
+  案件
+  女生
+  报案報案
+  可怕

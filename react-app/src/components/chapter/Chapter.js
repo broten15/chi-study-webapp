@@ -1,8 +1,9 @@
 import React from 'react'
-import { l1py, l1chars, l1trans, l1sents } from "../data/l1/l1data";
 import VocabCard from "./VocabCard";
 
-const Chapter = () => {
+const Chapter = (props) => {
+  const {py, chars, trans, sents} = props;
+
   const checkLength = (l1, l2, l3) => {
     let length = l1.length;
     let result = true;
@@ -22,9 +23,9 @@ const Chapter = () => {
       Chapter
       {/* {console.log(checkLength(l1py, l1chars, l1trans))} */}
       <VocabCard 
-        py={l1py}
-        chars={l1chars}
-        trans={l1trans}
+        py={py}
+        chars={chars}
+        trans={trans}
       />
     </div>
   )

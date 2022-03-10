@@ -1,9 +1,21 @@
-    'TW: in the middle of the night (after 12:00 A.M.) this point (in the abstract sense)',
-    'Adv: solely, just',
-    'VO: to spend money',
-    'VO: "return letter", to reply (to a letter) N: a reply (to a letter)',
-    'V: to mail',
-    'N: a check (money)',
-    'V: to respectfully offer (good wishes from someone of lower status to someone of higher status) (NOTE: This is a common salutation for letters and is not spoken.)',
-    'Adj: healthy N: health, 敬祝健康: (a conventional closing for a letter)',
-    'N: daughter (NOTE: In signing a letter the writer uses a title to explain his relationship to the recipient, e.g.. ,學生､友,母) name of daughter (NOTE: In the closing of a letter one usually uses only his first name, not his last name.) respectfully offer (this letter (from lower to higher)) (Convention used after the signature in a letter)',
+to live together{}同居||Adj: dangerous
+N: danger{}危险
+危險||like, as (similar){}像
+像||Adv: probably, possibility
+N: possibility
+Adj: possible{}可能||TW: usually, ordinarily
+Adj: ordinary, common{}平常||"deep night", late at night{}深夜||vicinity{}附近||factory{}工厂
+工廠||if, supposing that{}如果||ever since...{}自从。。。以后
+自從。 。 。以後||V: to hope
+N: hope{}希望||measure word for segment (of time, paragraph, space, etc.){}段||make friends{}交朋友||all day long, the whole day{}整天||"to mix", to keep company with, to run around with (derogatory){}混||if it's not A, then it's B;
+it must be either A or B{}不是。。。就是||"jump dance", to dance{}跳舞||many{}许多
+許多||to take, to lead (someone){}带
+帶||"I don't think that's the case", to object{}不以为然
+不以為然||only, just{}才||senior (3rd year) in high school{}高三||skills{}技能||to maintain, to preserve{}维持
+維持||N: (daily) life
+V: to live{}生活||tense{}紧张
+緊張||concept{}观念
+觀念||"fall behind the line", out of date, behind the times{}落伍||as long as...{}只要。。。就||to love each other{}相爱
+相愛||together{}一起||to get married{}结婚
+結婚||opinion{}意见
+意見||
