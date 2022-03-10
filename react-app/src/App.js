@@ -40,6 +40,7 @@ const App = () => {
                   chars={l1chars}
                   trans={l1trans}
                   sents={l1sents}
+                  chap={1}
                 />} 
             />
 
@@ -52,6 +53,7 @@ const App = () => {
                   chars={l2chars}
                   trans={l2trans}
                   sents={l2sents}
+                  chap={2}
                 />} 
             />
             
@@ -64,6 +66,7 @@ const App = () => {
                   chars={l3chars}
                   trans={l3trans}
                   sents={l3sents}
+                  chap={3}
                 />} 
             />
 
@@ -76,6 +79,7 @@ const App = () => {
                   chars={l4chars}
                   trans={l4trans}
                   sents={l4sents}
+                  chap={4}
                 />} 
             />
 
@@ -88,6 +92,7 @@ const App = () => {
                   chars={l5chars}
                   trans={l5trans}
                   sents={l5sents}
+                  chap={5}
                 />} 
             />
 
@@ -99,6 +104,7 @@ const App = () => {
                   chars={l6chars}
                   trans={l6trans}
                   sents={l6sents}
+                  chap={6}
                 />} 
             />
           </Routes >
