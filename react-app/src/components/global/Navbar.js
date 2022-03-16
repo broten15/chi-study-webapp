@@ -30,14 +30,13 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
-const NUM_CHAPS = 6;
 
 function Navbar() {
   const navigate = useNavigate();
 
-  function range(start, end) {
-    return Array(end - start + 1).fill().map((_, idx) => start + idx)
-  }
+  // function range(start, end) {
+  //   return Array(end - start + 1).fill().map((_, idx) => start + idx)
+  // }
 
   const classes = useStyles();
 
@@ -48,7 +47,7 @@ function Navbar() {
         <Typography variant="h4" className={classes.logo} onClick={() => {navigate('/');}}>
           CHI312L Vocab and Patterns
         </Typography>
-          <div className={classes.navlinks}>
+          {/* <div className={classes.navlinks}>
             {range(1, NUM_CHAPS).map((page) => (
               <Button
                 key={page}
@@ -58,7 +57,7 @@ function Navbar() {
                 Chapter {page}
               </Button>
               ))}
-          </div>
+          </div> */}
       </Toolbar>
     </AppBar>
   );

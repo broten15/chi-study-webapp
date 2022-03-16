@@ -30,11 +30,11 @@ const Chapter = (props) => {
 
   return (
     <div>
-      <Typography
+      {/* <Typography
         variant="h4" 
       >
         Chapter {chap}
-      </Typography>
+      </Typography> */}
 
       <Box sx={{ borderBottom: 1, borderColor: 'divider' }}>
         <Tabs value={value} onChange={handleChange}>

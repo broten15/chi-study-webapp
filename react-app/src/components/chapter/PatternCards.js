@@ -23,7 +23,7 @@ const PatternCards = (props) => {
     <div>
       {sents.map((sent, index) => (
         <Card 
-          key={sent}
+          key={index}
           sx={{ marginTop: 2, 
                 marginBottom: 2, 
                 marginLeft: 1, 

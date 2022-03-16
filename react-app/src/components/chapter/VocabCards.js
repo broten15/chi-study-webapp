@@ -13,7 +13,7 @@ const TextWrapper = styled('div')({
 });
 
 export default function BasicCard(props) {
-    const { py, chars, trans} = props;
+  const { py, chars, trans} = props;
 
   return (
     <div>

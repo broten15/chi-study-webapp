@@ -9,7 +9,7 @@ const PatternText = (props) => {
     // <div>{sent}</div>
     sent.split("\n").map((line, index) => (
       <Typography
-        key={line}
+        key={index}
         variant="body1"
       >
         {line}  
