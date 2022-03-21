@@ -30,7 +30,7 @@ export default function BasicCard(props) {
             sx={{ display: "flex", justifyContent: "space-between" }}
           >
             <TextWrapper>
-              <Typography variant="h6" component="div">
+              <Typography variant="h4" component="div">
                 {char}
               </Typography>
             </TextWrapper>

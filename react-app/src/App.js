@@ -19,7 +19,7 @@ import Box from '@mui/material/Box';
 const ContentWrapper = styled('div')({
   padding: 8,
   borderRadius: 4,
-  width: "90%",
+  width: "60%",
   margin: "auto",
 });
 
