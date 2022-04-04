@@ -3,3 +3,18 @@
 - add searching capabilities
 
 - clean up all data
+
+DATA CLEAN UP:
+- make algorithm to take out pinyin duplicates
+
+how to deal with charcter duplicates???
+- if pinyin cleaner finds duplicate pinyin, take out duplicate chars
+  - how to know what chars to take out??
+    - we know there could be a repeat chars if 2 pinyin words have a space
+
+
+cleanData():
+1. check if pinyin has space
+  - this tells us that there could be a duplicate
+2. if so, take out spaces and check if there is a repeated phrase
+3. if contains repeat, take out latter half of pinyin and chars

@@ -7,7 +7,7 @@ import java.util.ArrayList;
 public class Parser {
     public static final String VOCAB_DELIM = "%";
     public static final String TERM_DELIM = "<>";
-    public static final int CHAP = 5;
+    public static final int CHAP = 7;
 
 
     public static void printResults(ArrayList<String> defs, ArrayList<String> chis, int chap) {
