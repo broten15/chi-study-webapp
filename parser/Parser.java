@@ -7,6 +7,8 @@ import java.util.ArrayList;
 public class Parser {
     public static final String VOCAB_DELIM = "%";
     public static final String TERM_DELIM = "<>";
+    public static final int CHI_POS = 1;
+    public static final int DEF_POS = 0;
     public static final int CHAP = 7;
 
 
@@ -70,8 +72,8 @@ public class Parser {
         for (String term : terms) {
             String[] termParts = term.split(VOCAB_DELIM);
             assert(termParts.length == 2);
-            chis.add(termParts[0]);
-            defs.add(termParts[1]);
+            chis.add(termParts[CHI_POS]);
+            defs.add(termParts[DEF_POS]);
         }
 
         printResults(chis, defs, CHAP);
