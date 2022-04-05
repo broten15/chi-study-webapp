@@ -9,7 +9,7 @@ public class Parser {
     public static final String TERM_DELIM = "<>";
     public static final int CHI_POS = 1;
     public static final int DEF_POS = 0;
-    public static final int CHAP = 7;
+    public static final int CHAP = 6;
 
 
     public static void printResults(ArrayList<String> defs, ArrayList<String> chis, int chap) {
@@ -27,6 +27,9 @@ public class Parser {
             System.out.println("  `" + def + "`,");
         }
         System.out.println("];");
+
+        System.out.println("export const l" + chap + "py = [");
+        System.out.println("\n];");
 
         System.out.println("\n");
         for (String chi : chis) {

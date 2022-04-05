@@ -1,112 +1,141 @@
 
-export const l7chars = [
-  `堕胎,墮胎`,
-  `吸毒`,
-  `使`,
-  `委屈`,
-  `怀孕,懷孕`,
-  `成为,成為`,
-  `避孕`,
-  `方法`,
-  `进步,進步`,
-  `__ 得很`,
-  `合法`,
-  `手术,手術`,
-  `拔牙`,
-  `颗,顆`,
-  `为,為`,
-  `真正`,
-  `不是...而是...`,
-  `负担,負擔`,
-  `找事`,
-  `独立,獨立`,
-  `生孩子`,
-  `...也好...也好`,
-  `主张，主張`,
-  `干涉`,
-  `提到`,
-  `破案`,
-  `原来，原來`,
-  `据说，據說`,
-  `毒瘾,毒癮`,
-  `发，發`,
-  `毒品`,
-  `情形`,
-  `严重,嚴重`,
-  `岁,歲`,
-  `自由`,
+export const l6chars = [
+  `同居`,
+  `危险,危險`,
+  `像`,
+  `可能`,
+  `平常`,
+  `深夜`,
+  `附近`,
+  `工厂,工廠`,
+  `如果`,
+  `自从...以后,自從...以後`,
+  `希望`,
+  `段`,
+  `交朋友`,
+  `整天`,
+  `混`,
+  `不是...就是...`,
+  `跳舞`,
+  `许多,許多`,
+  `带,帶`,
+  `不以为然,不以為然`,
+  `才`,
+  `高三`,
+  `技能`,
+  `维持,維持`,
+  `生活`,
+  `紧张,緊張`,
+  `观念,觀念`,
+  `落伍`,
+  `只要...就...`,
+  `相爱,相愛`,
+  `一起`,
+  `结婚,結婚`,
+  `意见,意見`,
 ];
-export const l7trans = [
-  `VO: to have an abortion; to perform an abortion N: abortion`,
-  `"inhale poison", to use (illegal) drugs`,
-  `to make`,
-  `Adj: (to feel) as if being treated unfairly; V: to feel frustrated or wronged N: unfair treatment (emotion)`,
-  `to be pregnant`,
-  `to become`,
-  `VO: "avoid pregnancy", conception, to practice N: contraception`,
-  `method`,
-  `advanced (in technology)`,
-  `very (e.g., 好 得很 = 很好)`,
-  `"in accord with the law", legal`,
-  `operation, surgery`,
-  `to extract a tooth`,
-  `measure word for tooth or small round things`,
-  `for (this reason)`,
-  `real, true, actual`,
-  `not... but...`,
-  `V: to carry the burden of... N: burden`,
-  `to look for a job`,
-  `"singly stand", independent`,
-  `to bear children, to have children`,
-  `either A or B`,
-  `V: to propose, to advocate N: proposal`,
-  `V: to interfere N: interference`,
-  `to mention`,
-  `to clear up a case`,
-  `(to realize the actual situation) turned out that`,
-  `"It is said"`,
-  `addiction to drugs`,
-  `have a sudden onset of...`,
-  `poison items", drugs; narcotics`,
-  `situation`,
-  `serious in nature, grave`,
-  `age`,
-  `N: freedom Adj: free`,
+export const l6trans = [
+  `to live together`,
+  `Adj: dangerous N: danger`,
+  `like, as (similar)`,
+  `Adv: probably, possibly N: possibility Adj: possible`,
+  `TW: usually, ordinarily Adj: ordinary, common`,
+  `"deep night", late at night`,
+  `vicinity`,
+  `factory`,
+  `if, supposing that`,
+  `ever since...`,
+  `V: to hope N: hope`,
+  `measure word for segment (of time, paragraph, space, etc.)`,
+  `make friends`,
+  `all day long, the whole day`,
+  `"to mix", to keep company with, to run around with (derogatory)`,
+  `if it's not A, then it's B; it must be either A or B`,
+  `"jump dance", to dance`,
+  `many`,
+  `to take, to lead (someone)`,
+  `"(I) don't think that's the case", to object`,
+  `only, just`,
+  `senior (3rd year) in high school`,
+  `skills`,
+  `to maintain, to preserve`,
+  `N: (daily) life V: to live`,
+  `tense`,
+  `concept`,
+  `"fall behind the line", out of date, behind the times`,
+  `as long as ...`,
+  `to love each other`,
+  `together`,
+  `to get married`,
+  `opinion`,
+];
+export const l6py = [
+`tóngjū`,
+`wēixiăn`,
+`xiàng`,
+`kěnéng`,
+`píngcháng`,
+`shēnyè`,
+`fùjìn`,
+`gōngchăng`,
+`rúguǒ`,
+`zìcóng ... yǐhòu`,
+`xīwàng`,
+`duàn`,
+`jiāopéngyǒu`,
+`zhěngtiān`,
+`hùn`,
+`búshì A jiùshì B`,
+`tiàowǔ`,
+`xǔduō`,
+`dài`,
+`bù yǐ wéi rán`,
+`cái`,
+`gāosān`,
+`jìnéng`,
+`wéichí`,
+`shēnghuó`,
+`jǐnzhāng`,
+`guānniàn`,
+`luòwǔ`,
+`zhǐyào jiù`,
+`xiāng'ài`,
+`yìqǐ`,
+`jiéhūn`,
+`yìjiàn`,
 ];
 
 
-堕胎,墮胎
-吸毒
-使
-委屈
-怀孕,懷孕
-成为,成為
-避孕
-方法
-进步,進步
-__ 得很
-合法
-手术,手術
-拔牙
-颗,顆
-为,為
-真正
-不是...而是...
-负担,負擔
-找事
-独立,獨立
-生孩子
-...也好...也好
-主张，主張
-干涉
-提到
-破案
-原来，原來
-据说，據說
-毒瘾,毒癮
-发，發
-毒品
-情形
-严重,嚴重
-岁,歲
-自由
+同居
+危险,危險
+像
+可能
+平常
+深夜
+附近
+工厂,工廠
+如果
+自从...以后,自從...以後
+希望
+段
+交朋友
+整天
+混
+不是...就是...
+跳舞
+许多,許多
+带,帶
+不以为然,不以為然
+才
+高三
+技能
+维持,維持
+生活
+紧张,緊張
+观念,觀念
+落伍
+只要...就...
+相爱,相愛
+一起
+结婚,結婚
+意见,意見

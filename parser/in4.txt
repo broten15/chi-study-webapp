@@ -1,47 +1,48 @@
-to apply for%申请
-申請<>mister (title)%先生<>to set an appointment or date%约
-約<>V: "face-talk", to have an interview
-N: interview%面谈
-面談<>to see or to meet someone (for a special or official purpose)%见
-見<>long-distance%长途
-長途<>office%办公室
-辦公室<>travel agency, tour operator%旅行社<>to introduce%介绍
-介紹<>East Asian Studies%东亚研究
-東亞研究<>East Asia%东亚
-東亞<>V: to research
-N: research, studies%研究<>summer
-winter
-spring
-fall%夏天
-冬天
-春天
-秋天<>number of times (going, coming, etc.)%趟<>besides, in addition to...%除了。。。以外<>V: to study, to emulate
-N: study, studies%学习
-學習<>to join (a group), to participate in%参加
-參加<>tour group%旅游团
-旅遊團<>Shanghai%上海<>Soochow, Suzhou%苏州
-蘇州<>Nanking, Nanjing%南京<>Beijing%北京<>V: to experience
-N: experience%经验
-經驗<>V: to help
-N: help%帮助
-幫助<>at first%起先<>(here) to guide, to lead (a tour)%带
-帶<>education background (formal usage)%学历
-學歷<>N: (here) professional experience (formal)
-V: to experience%经历
-經歷<>"silver store", bank%银行
-銀行<>compensation, salary, treatment%待遇<>inferior, lacking%差<>senior high school%高中<>V: to translate, to interpret 
-N: translation; translator; interpreter%翻译
-翻譯<>(written) translation%笔译
-筆譯<>oral translation, interpretation%口译
-口譯<>daily%日常<>conversation%会话
-會話<>to handle, to deal with, to cope with%应付
-應付<>to fill in (a form)%填<>a form%表<>(here) to hand in, to submit%交<>secretary%秘书
-秘書<>within (a certain range of time, space, etc.)%在。。。之内<>V: to inform, to notify
-N: notification; a notice%通知<>full name (formal)%姓名<>sex (male, female) (formal)%性别<>address%地址<>year, month, and date of birth (formal)%出生年月日<>short for 办公室%公<>"city-established", established and administered by the city, municipal%市立<>staff member%职员
-職員<>privately administered, private%私立<>"teaching staff", faculty (formal)%教员
-教員<>marriage%婚姻<>situation, condition%状况
-狀況<>"not yet married", single (formal)%未婚<>"already married", married (formal)%已婚<>to divorce%离婚
-離婚<>tour guide%导游
-導遊<>at present%目前<>professional position, status, rank%职位
-職位<>and (written)%及<>annual salary%年薪<>US dollars%美金<>dollar (formal)%元<>"prepare for (further) note/comment", comments (on a form)%备注
-備註<>
+申请,
+申請%shēnqǐng - to apply for<>先生%xiānshēng - mister (title)<>约,
+約%yuē - to set an appointment or date<>面谈,
+面談%miàntán -
+V: "face-talk", to have an interview 
+N: interview<>见,
+見%jiàn - to see or to meet someone (for a special or offical purpose)<>长途,
+長途%chángtú - long-distance<>办公室,
+辦公室%bàngōngshì - office<>旅行社%lǔxíngshè - travel agency, tour operator<>介绍,
+介紹%jièshào - to introduce<>東亞研究%Dōng Yà yánjiū - East Asian Studies<>东亚,
+東亞%Dōng Yà - East Asia<>研究%yánjiū -
+V: to research 
+N: research, studies<>夏天%xiàtiān - summer<>冬天%dōngtiān - winter<>春天%chūntiān - spring<>秋天%qiūtiān - fall<>趟%tàng - number of times (going, etc.)<>除了... 以外%chúle...yiwài - besides, in addition...<>学习,
+學習%xuéxí -
+V: to study, to emulate 
+N: study, studies<>参加,
+參加%cānjiā - to join (a group), to participate in<>旅游团,
+旅遊團%lüyóutuán - tour group<>上海%Shànghăi<>苏州,
+蘇州%Sūzhōu<>南京%Nánjīng<>北京%Běijīng<>经验,
+經驗%Jīngyàn -
+V: to experience
+N: experience<>帮助,
+幫助%bāngzhù -
+V: to help 
+N: help<>起先%qǐxiān - at first<>带,
+帶%dài - (here) to guide, to lead (a tour) dài day<>学历,
+學歷%xuélì - educational background (formal usage)<>经历,
+經歷%jīnglì - 
+N: (here) professional experience (formal) 
+V: to experience<>银行,
+銀行%yínháng - "silver store", bank<>待遇%dàiyù - compensation, salary, treatment<>差%chà - inferior, lacking<>高中%gãozhōng - senior high school<>翻译,
+翻譯%fānyì - 
+V: to translate, to interpret 
+N: translation; translator; interpreter<>笔译,
+筆譯%bǐyì - (written) translation<>口译,
+口譯%kǒuyì - oral translation, interpretation<>日常%rìcháng - daily<>会话,
+會話%huìhuà - conversation<>应付,
+應付%yìngfù - handle, to deal with, to cope with<>填%tián - to fill in (a form)<>表%biǎo - a form<>交%jiāo - (here) to hand in, to submit<>秘书,
+秘書%mìshū - secretary<>在... 之內%zaì... zhīnèi - within (a certain range of time, space, etc.)<>通知%tōngzhī - 
+V: to inform, to notify 
+N: notification; a notice<>姓名%xìngmíng - full name (formal)<>性别%xìngbié - sex (male, female) (formal)<>地址%dìzhǐ - address<>出生年月日%chūshēng nián yuèrì - year, month, and date of birth (formal)<>公%gōng - short for 办公室<>市立%shìlì - "city-established", established and administered by the city", municipal<>职员,
+職員%zhíyuán - staff member<>私立%sīlì - privately administered, private<>教员,
+教員%jiàoyuán -"teaching staff", faculty (formal)<>婚姻%hūnyīn - marriage<>状况,
+狀況%zhuàngkuàng - situation, condition<>未婚%wèihūn - "not yet married", single (formal)<>已婚%yǐhūn - "already married", married (formal)<>离婚,
+離婚%líhūn - to divorce<>导游,
+導游%dǎoyóu - tour guide<>目前%mùqián - at present<>职位,
+職位%zhíwèi - professional position, status, rank<>及%jí - and (written)<>年薪%niánxīn - annual salary<>美金%měijīn - U.S. dollars<>元%yuán - dollar (formal)<>备注,
+備註%bèizhù - "prepare for (further) note/comment" comments (on form)<>

@@ -1,41 +1,40 @@
-hello (as a telephone greeting)%喂
-餵<>a name%李小芬<>"please have... come listen to the phone" I would like to speak to...%请。。。听电话
-請。 。 。聽電話<>just now%刚刚
-剛剛<>probably%大概<>to go (a place)%上<>bathroom%厕所
-廁所<>it's already...%都。。。了<>almost, soon%快<>to give (me) a call%来电话
-來電話<>VO: to worry
-Adj: to be worried%担心
-擔心<>dining hall; restaurant%餐厅
-餐廳<>clean%干净
-乾淨<>stomach, belly%肚子<>to have upset one's stomach by eating something%把肚子吃坏了
-把肚子吃壞了<>(frequently) to hurry to, to rush to%跑<>to have diarrhea%泻
-瀉<>a doctor%大夫<>hospital%医院
-醫院<>"pull stomach", to have the "runs", to have diarrhea%拉肚子<>to have a fever%发烧
-發燒<>VO: to lose weight, to become thin
-Adj: thin%瘦<>"a goodly several", quite a few%好几
-好幾<>a pound%磅<>always%老<>"cut fat", to lose weight, to diet%减肥
-減肥<>"eat-not-down", can't eat, don't feel like eating, can't finish eating%吃不下<>fruit%水果<>oh, yes (remembering something else)%噢，对了
-噢,對了<>mid term examination%期中考<>"demand-life; to a life-threatening point," extremely, ... to death
-忙得要命 ：(màng de yào mìng) extremely busy, busy to death%要命<>to look for excuses%找借口
-找藉口<>an excuse%借口
-藉口<>truly, really%实在
-實在<>at most%最多<>measure word for articles, term papers%篇<>page
-first page
-three pages%页 
-第一页
-三页
-頁<>topic, title%题目<>I'm worried to death%急死我了<>to blame%怪<>V: to be concerned about
-Adj: concerned
-N: concern%关心
-關心<>"wash-bowl", to wash dishes%洗碗<>a bowl
-a bowl of rice%碗
-一个碗 
-一碗饭<>an hour%小时
-小時<>low%低<>wages%工资
-工資<>schoolwork, homework%功课
-功課<>"unable to handle the business", too busy, to have too much to do%忙不过来
-忙不過來<>"why on earth?"%干嘛
-幹嘛<>to resemble, to seem, as (similar)%像
-像<>to be willing to%愿意
-願意<>to oppose%反对
-反對<>
+喂%Wéi - Hello<>请...听电话,
+請...聽電話%Qǐng...tīngdiànhuà - I would like to speak to...<>刚刚,
+剛剛%gānggāng - just now<>大概%dàgài - probably<>上%shàng - to go (a place)<>厕所,
+廁所%cèsuǒ - bathroom<>都...了%dōu...le - It's already<>快%kuài - almost, soon<>来电话,
+來電話%lái diànhuà - to give (me) a call<>担心,
+擔心%dānxīn - 
+VO: to worry 
+Adj: to be worried<>餐厅,
+餐廳%cāntīng - dining hall; restaurant<>干净,
+乾淨%gānjìng - clean<>肚子%dùzi - stomach, belly<>把肚子吃坏了,
+把肚子吃壞了%bǎ dùzi chīhuài le - to have upset one's stomach by eating something<>跑%pǎo - (frequently) to hurry to, to rush to<>泻,
+瀉%xiè - have diarrhea (explosive)<>大夫%dàifū - a doctor (more colloquial than 医生 )<>医院,
+醫院%yīyuàn - hospital<>拉肚子%lā-dùzi - "pull stomach", to have the "runs", to have diarrhea<>发烧,
+發燒%fāshāo - to have a fever<>瘦%shòu -
+V: to lose weight, to become thin 
+Adj: thin<>好几,
+好幾%hǎo-jǐ - "a goodly several", quite a few<>磅%bàng - a pound<>老%lǎo - always<>减肥,
+減肥%jiǎnféi - "cut fat", to lose weight, to diet<>吃不下%chību-xià - "eat-not-down", can't eat, don't feel like eating, can't finish eating<>水果%shuǐguǒ - fruit<>噢对了,
+嗅對了%O, duìle - Oh, yes (remembering something else)<>期中考%qīzhōngkǎo - mid-term examination<>期末考%qīmōkǎo - final exam<>要命%yàomìng - "demand-life; to a life-threatening point," extremely, ... to death 忙得要命：extremely busy, busy to death<>找借口,
+找藉口%zhăo-jièkou - to look for excuses<>借口,
+藉口%jièkǒu - an excuse<>实在,
+實在%shízaì - truly, really<>最多%zuìduō - at most<>篇%piān - measure word for articles, termpapers<>页,
+頁%yè - page 
+第一 頁 : first page 
+三页 : three pages<>题目,
+題目%tímù - topic, title<>急死我了%jísǐ wǒle - I'm worried to death<>怪%guài - to blame<>关心,
+關心%guānxīn -
+V: to be concerned about
+Adj: concerned 
+N: concern<>洗碗%xǐwăn - "wash-bowl", to wash dishes<>碗%wǎn -
+N : 一個 碗 : a bowl 
+M : 一 碗飯 : a bowl of rice<>小时,
+小時%Xiǎoshí - an hour<>低%dī - low<>工资,
+工資%gōngzī - wages<>功课,
+功課%gōngkè - schoolwork, homework<>忙不过来,
+忙不過來%mángbú-guòlái - "unable to handle the business", too busy, have too much do<>干嘛,
+幹嘛%gànmá - "why on earth?" (colloquial)<>象,
+像%xiàng - to resemble, to seem, as (similar)<>愿意,
+願意%yuànyì - to be willing to<>反对,
+反對%fánduì - to oppose (an opinion, way of doing)<>既然%jīrán - since, given that<>最低工资%Zuìdī gōngzī- minimum wage<>
