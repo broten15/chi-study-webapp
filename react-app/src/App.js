@@ -20,6 +20,7 @@ const ContentWrapper = styled('div')({
   padding: 8,
   borderRadius: 4,
   width: "70%",
+  minWidth: "50rem",
   margin: "auto",
 });
 
