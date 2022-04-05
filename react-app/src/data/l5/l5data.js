@@ -190,5 +190,115 @@ export const l5py = [
 ];
 
 export const l5sents = [
+`1.
+忙著
+to be busy (doing something)
+有些人忙著找暑期工作。 
+Some people are busy looking for summer jobs.
+(1)
+快要期中考了,大家都忙著預備功課。 
+It will soon be mid-terms. Everyone is busy preparing for the exam.
+(2)
+A: 你這幾天在忙(些)甚麼?
+A: What have you been busy doing for the past few days?
+B:我忙著整理屋子。
+B: I'm busy straigtening up my room.
+(3)
+我每天忙著做功課。
+I am busy every day doing homework.`,
+
+`2. 
+到...為止 
+up to (a certain time or degree)
+到現在為止,我的成績都很好。 
+Up to now, my grades have been very good.
+(1)
+到明天為止,我在這兒已經住了兩年了。 
+By tomorrow, I will have already lived here for three years.
+(2)
+我們今天上課就到下午三點為止。
+We will have class until three o'clock today.
+(3)
+到現在為止,他還沒回來。 
+Up to now, he still has not returmed.
+(4)
+跑步就跑到那條街為止。 
+Jog up to that street.
+(5) 
+你們可以吃到飽為止。 
+You can eat until you are full.
+(6) 
+聽錄音帶得聽到能記住為止。 
+Listen to the tape until you have it memorized.`,
+
+`3.
+除了...以外
+except for
+除了化學課有幾個實驗做得不成功以外,其他幾門課大概都是A。
+I probably got an A in all of my classes except for chemistry, in which I had a few unsuccessful experiments.
+(1) 
+除了小張以外,別的人都是這個大學畢業的。 
+Except for Little Zhang, all the others graduated from this university.
+(2) 
+除了這本書,桌子上只有一枝筆。 
+Besides this book, only one pen is on the table.
+(3) 
+除了我以外没有人會說中文。 
+Besides me, no one else can speak Chinese. (Only I can speak Chinese.)`,
+
+`4.
+被 
+Passive voice marker
+有一個男同學的照相機被偷了。
+A male student's camera was stolen.
+(1)
+A: 魚被貓(給) 吃了。 
+A: The fish was eaten by the cat.
+B: 魚被吃了。 
+B: The fish was eaten.
+(2)
+A: 糖都被狗吃完了。 
+A: All the candy was eaten by the dog.
+B: 糖被吃完了。
+B: The candies were eaten.
+(3) 
+你的書被他(給)拿走了。 
+Your book was taken away by him.
+(4) 
+杯子被弟弟打破了。 
+The cup was broken by (his) younger brother.`,
+
+`5.
+一直 V 到 ... (為止)
+Indicates that an action continues up to a certain point.
+晚會一直開到早上三點。
+The party lasted until three o'clock in the morning.
+(1)
+他開會一直開到十二點。
+His meeting lasted until twelve o'clock.
+(2) 
+他每天念書一直念到把每一個生字都記住了為止。 
+Every day he studies until he has memorized every vocabulary item.`,
+
+`6. 
+A對B有影響
+A has an impact on B; A influences B
+這件事對我的生活有很大的影響。 
+This event has had a great impact on my life.
+(1)
+汽車對人的生活有很大的影響。
+Cars have a great influence on people's lives.
+= 汽車影響人的生活。 
+Cars influence people's lives.
+= 人的生活受汽車的影響。
+People's lives are influenced by cars.
+(2) 
+中文對日文有很大的影響。 
+The Chinese language has had a great influence on the Japanese language.
+= 中文影響了日文。
+The Chinese language has influenced the Japanese language.
+= 日文受到了中文的影響。 
+The Japanese language has been influenced by the Chinese language.`,
+
 
 ];
