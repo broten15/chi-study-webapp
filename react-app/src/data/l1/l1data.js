@@ -123,8 +123,8 @@ export const l1chars = [
   `huíxìn`,
   `jì`,
   `zhī piào`,
-  `jing zhù`,
-  `jiàn kāng`,
+  `jìng zhù`,
+  `jìàn kāng`,
   `jìng shàng`,
   ];
 
