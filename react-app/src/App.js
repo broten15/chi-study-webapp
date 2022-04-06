@@ -12,7 +12,7 @@ import { lessonData,
   NUM_CHAPS,
 } from "./const/Const";
 
-import Tabs from '@mui/material/Tabs';
+import Tabs, { tabsClasses } from '@mui/material/Tabs';
 import Tab from '@mui/material/Tab';
 import Box from '@mui/material/Box';
  
@@ -20,7 +20,7 @@ const ContentWrapper = styled('div')({
   padding: 8,
   borderRadius: 4,
   width: "70%",
-  minWidth: "50rem",
+  minWidth: "42rem",
   margin: "auto",
 });
 
@@ -62,7 +62,17 @@ const App = () => {
         <ContentWrapper>
 
           <Box sx={{ borderBottom: 4, borderColor: 'divider' }}>
-            <Tabs value={value} onChange={handleChange}>
+            <Tabs 
+              value={value} 
+              onChange={handleChange}
+              variant="scrollable"
+              scrollButtons="auto"  
+              sx={{
+                [`& .${tabsClasses.scrollButtons}`]: {
+                  '&.Mui-disabled': { opacity: 0.3 },
+                },
+              }}
+            >
               {renderChapterTabs()}
             </Tabs>
           </Box>
