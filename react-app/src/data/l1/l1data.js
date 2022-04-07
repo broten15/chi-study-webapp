@@ -129,7 +129,8 @@ export const l1chars = [
   ];
 
 export const l1sents = [
-    `1. A對B有興趣
+    `1. 
+    A對B有興趣
     A is interested in B
     我進了大學以後才知道自己對文學,歷史也很有興趣。 
     I didn't find out that I was also interested in literature and history until after I entered college.
@@ -142,11 +143,13 @@ export const l1sents = [
     (3)
     他對文學沒有興趣。
     He is not interested in rature.
-    (4) 我對這本書完全没有興趣。
+    (4) 
+    我對這本書完全没有興趣。
     I have no interest in this book whatsoever.
     `,
 
-    `2. 尤其
+    `2. 
+    尤其
     especially, particularly
     這幾門課都相當重,尤其是化學課。 
     These several courses are quite difficult, especially chemistry.
@@ -164,9 +167,8 @@ export const l1sents = [
     I don't like to eat Chinese food, I especially don't like to eat Southern (Chinese) food.
     (4)
     我喜歡看電影,我尤其喜歡看美國電影。 
-    I like to watch movies; I especially like to watch American movies.`,
-
-    `尤其 N
+    I like to watch movies; I especially like to watch American movies.
+    尤其 N
     (5)
     我喜歡吃中國菜,尤其是南方菜。
     I like to eat Chinese food, especially Southern food.
@@ -174,7 +176,9 @@ export const l1sents = [
     我討厭做家事,尤其是洗碗。
     I hate doing housework, especially washing dishes.`,
 
-    `3. Question Words + 都
+
+    `3. 
+    Question Words + 都
     indicating inclusiveness
     她甚麼都好,就是男朋友的電話太多。
     Everything about her is good, it's just that her boyfriend calls too much.
@@ -230,7 +234,8 @@ export const l1sents = [
     B: 她還沒畢業呢。
     B:She still hasn't graduated.`,
 
-    `還在V呢
+    `6.
+    還在V呢
     still V-ing
     (1)
     已經上午十一點了,他還在睡覺呢。
@@ -242,7 +247,8 @@ export const l1sents = [
     他還在看書呢,真用功。 
     He's still studying. (He's) really diligent.`,
 
-    `6. 光是A就B
+    `7. 
+    光是A就B
     only, merely, just
     光是物理課的書就花了一百五十多塊錢。 
     Just for the books for my physics class, I spent over one hundred and fifty dollars.

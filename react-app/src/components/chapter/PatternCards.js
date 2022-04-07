@@ -30,9 +30,7 @@ const PatternCards = (props) => {
                 marginRight: 1 
               }}  
         >
-          <CardContent 
-            sx={{ display: "flex", justifyContent: "space-between" }}
-          >
+          <CardContent>
             <TextWrapper>
               <Typography variant="h6" component="div">
                 {/* {console.log(sent)} */}
