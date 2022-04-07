@@ -2,30 +2,33 @@ import { Typography } from '@mui/material';
 import React from 'react';
 import styled from "styled-components";
 
-
-
 // first there lines will appear together
 
 // after that if there isnt `(n)` then the next 2 lines will be example
 
 // after that if there isnt `(n)` then next line is pattern (only chi)
 
-// else if there is a `(n)` then next 3 lines (inc.) will be example
+// else if there is a `(n)` then next NUM_HEADER_LINES lines (inc.) will be example
 
 const CompsWrapper = styled.div`
-  /* display: flex; */
-  /* justify-content: space-between; */
+  display: flex;
+`;
+
+const ExamplesWrapper = styled.div`
+  width: 80%;
 `;
 
 const PatternText = (props) => {
+  const NUM_HEADER_LINES = 3;
   const { sent } = props
+  const lines = sent.split("\n");
 
 
   const isExample = (line) => {
     return true;
   };
 
-  const getHeaderComp = (num, chi, eng) => {
+  const getHeaderComp = (chi, eng) => {
     // const headerStr = `${num} ${chi} = ${eng}`
     return (
       <Typography
@@ -33,12 +36,12 @@ const PatternText = (props) => {
         component="div"
         key={0}
       >
-        {num} {chi}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{eng}
+        {chi}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{eng}
       </Typography>
     );
   }
 
-  const getExampleComp = (lines, i) => {
+  const getExampleComp = (i) => {
     return (
       <div
         key={i}
@@ -60,15 +63,17 @@ const PatternText = (props) => {
   }
 
   const getComps = (sent) => {
-    let i = 3;
+    let i = NUM_HEADER_LINES;
     const comps = [];
-    const lines = sent.split("\n");
 
-    comps.push(getHeaderComp(lines[0], lines[1], lines[2]));
+    // TODO: make use some nested divs for the spacing of differnt types of lines
+    comps.push(getHeaderComp(lines[1], lines[2]));
     
+
+
     if (isExample(lines[i])) {
       comps.push(getExampleComp(lines, i));
-      i++;  
+      i += 2;  
     } else {
 
     }
@@ -80,6 +85,13 @@ const PatternText = (props) => {
 
   return (
     <CompsWrapper>
+      <Typography
+        variant="h5"
+        component="div"
+        key={0}
+      >
+        {lines[0]}&nbsp;
+      </Typography>
       {getComps(sent)}
     </CompsWrapper>
     // sent.split("\n").map((line, index) => {

@@ -123,7 +123,8 @@ When you were in elementary school, you always said that you hated history. Now 
 我們已經二十多年沒見了,他居然還記得我的名 字。
 It's already been twenty years since we have seen each other, (but) surprisingly he still remembers my name. 
 (2)
-他在日本住了好幾年,沒想到居然一句日本話都不會說。 He lived in Japan for a number of years. It did not occur to me that he (surprisingly) would not be able to speak even one sentence of Japanese.`,
+他在日本住了好幾年,沒想到居然一句日本話都不會說。 
+He lived in Japan for a number of years. It did not occur to me that he (surprisingly) would not be able to speak even one sentence of Japanese.`,
 
 `2.
 讓 
