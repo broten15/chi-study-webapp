@@ -16,6 +16,18 @@ const CompsWrapper = styled.div`
 
 const LineWrapper = styled.div`
   display: flex;
+  margin-bottom: 10px;
+  margin-top: 10px;
+`;
+
+
+const ExNumberWrapper = styled.div`
+  // center items in div vertiacally
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  
 `;
 
 const Spacer = styled.div`
@@ -33,7 +45,9 @@ const PatternText = (props) => {
 
 
   const isExample = (line) => {
-    return true;
+    // check if the first character is an open parenthesis
+    // TODO: have better check and do not use trim
+    return line.trim().charAt(0) === '(';
   };
 
   const getHeaderComp = (chi, eng) => {
@@ -45,8 +59,6 @@ const PatternText = (props) => {
         key={0}
       >
         {chi}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{eng}
-
-        
       </Typography>
     );
   }
@@ -69,14 +81,27 @@ const PatternText = (props) => {
   );
 
 
-  const getExampleComp = (i) => { 
+  const getExampleComp = (i, hasNum) => { 
     return (
       <LineWrapper
         key={i}
       >
         {renderSpacers(1)}
-        
-        {renderChiEngPair(i)}
+
+        {console.log("hasNum: ", hasNum)}
+        {hasNum && 
+          <ExNumberWrapper>
+            <Typography
+              variant="h6"
+              component="div"
+            >
+              {console.log("rendering number")}
+              {lines[i]}&nbsp;&nbsp;
+            </Typography>
+          </ExNumberWrapper>
+        }
+
+        {renderChiEngPair(hasNum ? i + 1 : i)}
       </LineWrapper>
     );
   }
@@ -87,12 +112,14 @@ const PatternText = (props) => {
     
     while (i < lines.length) {
       if (isExample(lines[i])) {
-        console.log("is eample")
-        comps.push(getExampleComp(i));
-        i += 2;  
+        console.log("is example")
+        comps.push(getExampleComp(i, true));
+        i += 3;  
       } else {
-
+        comps.push(getExampleComp(i, false));
+        i += 2;
       }
+      
     }
     
 

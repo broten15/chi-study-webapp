@@ -257,8 +257,7 @@ export const l1sents = [
     (He) spent three hours just preparing for the Chinese lesson.
     (2)
     在美國上大學很貴。光是住宿舍就要兩千塊錢。
-    Attending college in America is very expensive. It costs two
-    thousand dollars alone to live in the dormitory.
+    Attending college in America is very expensive. It costs two thousand dollars alone to live in the dormitory.
     (3)
     整理屋子真麻煩,光是掃地我就覺得累得不得了。 
     Cleaning house is really a pain. Just sweeping the floor tires me out.`,
