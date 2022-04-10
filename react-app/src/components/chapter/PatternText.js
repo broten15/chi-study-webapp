@@ -11,7 +11,15 @@ import styled from "styled-components";
 // else if there is a `(n)` then next NUM_HEADER_LINES lines (inc.) will be example
 
 const CompsWrapper = styled.div`
+  
+`;
+
+const LineWrapper = styled.div`
   display: flex;
+`;
+
+const Spacer = styled.div`
+  width: 4rem;
 `;
 
 const ExamplesWrapper = styled.div`
@@ -37,45 +45,54 @@ const PatternText = (props) => {
         key={0}
       >
         {chi}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{eng}
+
+        
       </Typography>
     );
   }
 
-  const getExampleComp = (i) => {
+  const renderChiEngPair = (i) => (
+    <div>
+      <Typography
+        variant="h6"
+        component="div"
+      >
+        {lines[i]}
+      </Typography>
+      <Typography
+        variant="h6"
+        component="div"
+      >
+        {lines[i + 1]}
+      </Typography>
+    </div>
+  );
+
+
+  const getExampleComp = (i) => { 
     return (
-      <div
+      <LineWrapper
         key={i}
       >
-        <Typography
-          variant="h6"
-          component="div"
-        >
-          {lines[i]}
-        </Typography>
-        <Typography
-          variant="h6"
-          component="div"
-        >
-          {lines[i + 1]}
-        </Typography>
-      </div>
+        {renderSpacers(1)}
+        
+        {renderChiEngPair(i)}
+      </LineWrapper>
     );
   }
 
-  const getComps = (sent) => {
+  const getComps = () => {
     let i = NUM_HEADER_LINES;
     const comps = [];
-
-    // TODO: make use some nested divs for the spacing of differnt types of lines
-    comps.push(getHeaderComp(lines[1], lines[2]));
     
+    while (i < lines.length) {
+      if (isExample(lines[i])) {
+        console.log("is eample")
+        comps.push(getExampleComp(i));
+        i += 2;  
+      } else {
 
-
-    if (isExample(lines[i])) {
-      comps.push(getExampleComp(lines, i));
-      i += 2;  
-    } else {
-
+      }
     }
     
 
@@ -83,16 +100,29 @@ const PatternText = (props) => {
     return comps
   };
 
+  const renderSpacers = (numSpaces) => {
+    const spacerComps = [];
+    for (let i = 0; i < numSpaces; i++) {
+      spacerComps.push(<Spacer key={i} />);
+    }
+    return spacerComps;
+  };
+
   return (
     <CompsWrapper>
-      <Typography
-        variant="h5"
-        component="div"
-        key={0}
-      >
-        {lines[0]}&nbsp;
-      </Typography>
-      {getComps(sent)}
+      <LineWrapper>
+        <Typography
+          variant="h5"
+          component="div"
+        >
+          {lines[0]}&nbsp;
+        </Typography>
+        {getHeaderComp(lines[1], lines[2])}
+      </LineWrapper>
+
+      {getComps()}
+
+      
     </CompsWrapper>
     // sent.split("\n").map((line, index) => {
     //   return (
