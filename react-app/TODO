@@ -2,3 +2,14 @@
 
 - add searching capabilities
 
+
+
+TYPES OF LINES (N = ?):
+- header => first 3 items
+- headerEx => chi, eng
+- ex => paraNum, chi, eng
+- subHeader => sent, num
+- multiEx => paraNum, N chi, N Eng (ends once the next line does not have A or B)
+
+
+
