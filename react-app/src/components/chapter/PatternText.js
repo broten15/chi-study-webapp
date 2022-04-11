@@ -161,6 +161,7 @@ const PatternText = (props) => {
         comps.push(getExampleComp(i, true));
         i += 3;  
   
+      // TODO: deal with AB pattern
 
 
 
