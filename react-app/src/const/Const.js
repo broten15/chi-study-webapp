@@ -30,3 +30,5 @@ export const CHAP_TEXT = "Chapter";
 export const TERM_DELIM = "{}";
 
 export const ROW_DELIM = "||";
+
+export const END_OF_LATIN = 400;

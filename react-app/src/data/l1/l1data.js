@@ -156,8 +156,7 @@ export const l1sents = [
     尤其 SV
     (1)
     他們家的人都很高,他父親尤其高。
-    The people in his family are all very tall; his father is especially
-    tall.
+    The people in his family are all very tall; his father is especially tall.
     (2)
     這儿的東西都很貴,吃的東西尤其貴。 
     Everything here is expensive; food is especially expensive.
@@ -183,16 +182,19 @@ export const l1sents = [
     她甚麼都好,就是男朋友的電話太多。
     Everything about her is good, it's just that her boyfriend calls too much.
     (1) 
-    你在哪儿住都行。 Wherever you live is alright.
+    你在哪儿住都行。 
+    Wherever you live is alright.
     (2)
     多麼貴的書我都買得起。
     No matter how expensive the books are, I can afford them.
     (3) 
-    我怎麼做他都不高興。 However I do it, he's not happy.
+    我怎麼做他都不高興。 
+    However I do it, he's not happy.
     (4)
     張先生誰都喜歡。
     Everyone likes Mr. Chang. (or)Mr. Chang likes everyone. Note: The in this sentence can be either the subject or the object of the verb 喜歡.
-    (5) 你甚麼時候來都可以。 
+    (5) 
+    你甚麼時候來都可以。 
     Whatever time you come is fine.`,
 
     `4.

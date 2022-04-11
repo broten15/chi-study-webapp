@@ -1,6 +1,7 @@
 import { Typography } from '@mui/material';
 import React from 'react';
 import styled from "styled-components";
+import { END_OF_LATIN } from '../../const/Const'
 
 // first there lines will appear together
 
@@ -21,43 +22,71 @@ const LineWrapper = styled.div`
 `;
 
 
-const ExNumberWrapper = styled.div`
-  // center items in div vertiacally
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-  
-`;
-
 const Spacer = styled.div`
   width: 4rem;
 `;
 
-const ExamplesWrapper = styled.div`
-  width: 80%;
+const ExampleWrapper = styled(LineWrapper)`
+  padding-left: 3rem;
 `;
 
 const PatternText = (props) => {
   const NUM_HEADER_LINES = 3;
   const { sent } = props
-  const lines = sent.split("\n");
+  const lines = sent.split("\n").map(line => line.trim());
 
-
-  const isExample = (line) => {
+  const isParaNum = (line) => {
     // check if the first character is an open parenthesis
     // TODO: have better check and do not use trim
-    return line.trim().charAt(0) === '(';
+    return line.charAt(0) === '(';
   };
 
-  const getHeaderComp = (chi, eng) => {
+  const isLatin = (line) => {
+    return line.charCodeAt(0) <= END_OF_LATIN;
+  }
+
+  const isHeaderEx = (i) => {
+    if (i + 1 >= lines.length) {
+      return false;
+    }
+
+    return !isLatin(lines[i]) 
+      && isLatin(lines[i + 1])
+      && !isParaNum(lines[i + 1]);
+  };
+
+  const isEx = (i) => {
+    if (i + 2 >= lines.length) {
+      return false;
+    }
+
+    return isParaNum(lines[i]) 
+      && !isLatin(lines[i + 1]) 
+      && isLatin(lines[i + 2]);
+  };
+
+  const isSubHeader = (i) => {
+    if (i + 1 >= lines.length) {
+      return false;
+    }
+    // lines[i] could start with chi or eng
+    return isParaNum(lines[i + 1]);
+  };
+
+  const getHeaderComp = (chi, eng, i) => {
     // const headerStr = `${num} ${chi} = ${eng}`
     return (
       <Typography
         variant="h5"
         component="div"
-        key={0}
+        key={i}
       >
+        {/* spacing for subheader */}
+        {eng.length === 0 && 
+          <>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          </>
+        }
         {chi}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{eng}
       </Typography>
     );
@@ -83,47 +112,66 @@ const PatternText = (props) => {
 
   const getExampleComp = (i, hasNum) => { 
     return (
-      <LineWrapper
+      <ExampleWrapper
         key={i}
       >
-        {renderSpacers(1)}
+        {/* {renderSpacers(1)} */}
 
-        {console.log("hasNum: ", hasNum)}
         {hasNum && 
-          <ExNumberWrapper>
-            <Typography
-              variant="h6"
-              component="div"
-            >
-              {console.log("rendering number")}
-              {lines[i]}&nbsp;&nbsp;
-            </Typography>
-          </ExNumberWrapper>
+          <Typography
+            variant="h6"
+            component="div"
+          >
+            {lines[i]}&nbsp;&nbsp;
+          </Typography>
         }
 
         {renderChiEngPair(hasNum ? i + 1 : i)}
-      </LineWrapper>
+      </ExampleWrapper>
     );
   }
+
+  /* 
+  TYPES OF LINES (N = ?):
+  - header => first 3 items (dont need to worry about this)
+  - headerEx => chi, eng
+  - ex => paraNum, chi, eng
+  - subHeader => sent, num
+  - multiEx => paraNum, N chi, N Eng (ends once the next line does not have A or B)
+  */
 
   const getComps = () => {
     let i = NUM_HEADER_LINES;
     const comps = [];
     
     while (i < lines.length) {
-      if (isExample(lines[i])) {
+      console.log(i)
+      if (isHeaderEx(i)) {
+        console.log("is header example")
+        comps.push(getExampleComp(i, false));
+        i += 2;
+
+      } else if (isSubHeader(i)) {
+        console.log("is sub header")
+        comps.push(getHeaderComp(lines[i], "", i));
+        i += 1;
+
+      } else if (isEx(i)) {
         console.log("is example")
         comps.push(getExampleComp(i, true));
         i += 3;  
+  
+
+
+
       } else {
+        console.log("in else")
         comps.push(getExampleComp(i, false));
         i += 2;
       }
       
     }
-    
-
-
+  
     return comps
   };
 
@@ -144,7 +192,7 @@ const PatternText = (props) => {
         >
           {lines[0]}&nbsp;
         </Typography>
-        {getHeaderComp(lines[1], lines[2])}
+        {getHeaderComp(lines[1], lines[2], 0)}
       </LineWrapper>
 
       {getComps()}

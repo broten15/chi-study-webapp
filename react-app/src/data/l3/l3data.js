@@ -170,6 +170,7 @@ export const l3py = [
 export const l3sents = [
 `1.
 (都)快...了
+Expressing soon or almost
 到現在都快十天了,你也没來個電話。
 Up until now it has been almost ten days, and you still haven't called.
 (1) 

@@ -146,7 +146,8 @@ In order to find a job after graduation, many people take courses that they them
 (1) 
 為了學好中文,他跟中國人住在一塊儿。 
 In order to learn Chinese well, he lives with Chinese people.
-(2) 為了找一個好工作,他去念大學。 
+(2) 
+為了找一個好工作,他去念大學。 
 In order to find a good job, he went to college.
 ...是為了
 (3)
