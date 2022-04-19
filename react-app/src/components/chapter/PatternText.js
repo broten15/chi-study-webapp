@@ -4,6 +4,7 @@ import styled from "styled-components";
 import { END_OF_LATIN } from '../../const/Const'
 import SingleEx from './sp-entry-types/SingleEx';
 import Header from './sp-entry-types/Header';
+import ABEx from './sp-entry-types/ABEx';
 
 // first there lines will appear together
 
@@ -36,10 +37,22 @@ const PatternText = (props) => {
 
   const isLatin = (line) => {
     return line.charCodeAt(0) <= END_OF_LATIN;
-  }
+  };
 
-  const startsWithA = (line) => {
-    return line.charAt(0) === 'A';
+  const startsWithAorB = (line) => {
+    return line.charAt(0) === 'A' || line.charAt(0) === 'B';
+  };
+
+  const getABLength = (i) => {
+    // first line is paraNum;
+    i += 1;
+    // after then line find how many ab lines there are
+    let length = 0;
+    while (i < lines.length && startsWithAorB(lines[i])) {
+      length++;
+      i++;
+    }
+    return length;
   };
 
 
@@ -70,7 +83,7 @@ const PatternText = (props) => {
     }
 
     return isParaNum(lines[i]) 
-      && startsWithA(lines[i + 1]) 
+      && startsWithAorB(lines[i + 1]) 
   };
 
 
@@ -126,7 +139,6 @@ const PatternText = (props) => {
         comps.push(
           <SingleEx
             i={i}
-            key={i}
             hasNum={true}
             lines={lines}
           />
@@ -134,7 +146,21 @@ const PatternText = (props) => {
         i += 3;  
 
       } else if (isABEx(i)) {
-        console.log("is AB example")
+        console.log("in ab ex")
+        const abLength = getABLength(i);
+        comps.push(          
+          <ABEx
+            key={i}
+            i={i}
+            length={abLength}
+            lines={lines}
+          />
+        );
+        i += 1 + abLength // 1 is for paraNum line
+
+      // TODO: deal with AB pattern
+      } else {
+        console.log("is else")
         comps.push(
           <SingleEx
             i={i}
@@ -144,12 +170,6 @@ const PatternText = (props) => {
           />
         );
         i += 3;  
-
-      // TODO: deal with AB pattern
-      } else {
-        console.log("in else")
-        // comps.push(getSingleExComp(i, false));
-        i += 2;
       }
       
     }

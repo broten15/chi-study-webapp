@@ -14,11 +14,11 @@ const ExampleWrapper = styled(LineWrapper)`
 `;
 
 const SingleEx = (props) => {
-  const { i, lines, hasNum } = props;
+  const { i, lines, hasNum, needsSpace } = props;
 
   return (
     <ExampleWrapper
-      key={i}
+      // key={i}
     >
       {/* {renderSpacers(1)} */}
 
@@ -28,6 +28,15 @@ const SingleEx = (props) => {
           component="div"
         >
           {lines[i]}&nbsp;&nbsp;
+        </Typography>
+      }
+
+      {needsSpace && !hasNum && 
+          <Typography
+          variant="h6"
+          component="div"
+        >
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         </Typography>
       }
 
