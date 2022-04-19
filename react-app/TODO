@@ -12,4 +12,8 @@ TYPES OF LINES (N = ?):
 - multiEx => paraNum, N chi, N Eng (ends once the next line does not have A or B)
 
 
+CURR TODO:
+- deal with a and b pattern
+
+
 
