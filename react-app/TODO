@@ -13,7 +13,7 @@ TYPES OF LINES (N = ?):
 
 
 CURR TODO:
-- deal with a and b pattern
-
+- add better solution for consistent spacing
+- fix array out of bouds errors (probably ab implementation problem)
 
 

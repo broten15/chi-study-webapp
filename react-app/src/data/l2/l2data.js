@@ -170,7 +170,8 @@ A 對 B 有好處
 A is beneficial to B
 多選一些不同的課,對你是很有好處的。 
 Taking more different courses is beneficial to you.
-(1) 運動對身體有好處。 
+(1) 
+運動對身體有好處。 
 Exercise is beneficial to your health.
 (2) 
 喝酒對你没有好處 

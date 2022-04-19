@@ -36,6 +36,7 @@ const SingleEx = (props) => {
           variant="h6"
           component="div"
         >
+          {/* probably need better solution for consistent spacing */}
           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         </Typography>
       }

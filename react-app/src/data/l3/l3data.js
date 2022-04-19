@@ -179,7 +179,8 @@ It will soon be exam time, and he has still not started studying.
 (2) 
 都快吃晚飯了他才回來。 
 He didn't return until it was almost time to eat supper.
-(3) 他去了都已經一個月了,只打過一次電話。
+(3) 
+他去了都已經一個月了,只打過一次電話。
 He's been gone for a month already and has called only once.
 都快十二點了,你怎麼還不睡?
 It's almost twelve o'clock. Why are you still up?`,
@@ -210,7 +211,8 @@ Actually Japanese cars aren't expensive, it's just that they are too small.
 (2)
 這本書難倒是不難,就是字太小,看不清楚。
 This book is really not that hard, it's just that the words are too small and unclear.
-(3) 這所學校有名倒是有名,就是離我家遠了一點。 
+(3) 
+這所學校有名倒是有名,就是離我家遠了一點。 
 This school is famous alright, it's just that it is a little too far from home.`,
 `4.
 Frequency 
