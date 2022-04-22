@@ -1,6 +1,6 @@
 import React from "react";
 import Chapter from "./components/chapter/Chapter";
-import { BrowserRouter as Router, Routes , Route } from "react-router-dom";
+import { BrowserRouter as Router } from "react-router-dom";
 import Navbar from "./components/global/Navbar";
 import { styled } from '@mui/system';
 import { lessonData, 
@@ -10,6 +10,7 @@ import { lessonData,
   SENTS,
   CHAP_TEXT,
   NUM_CHAPS,
+  ALL_TEXT,
 } from "./const/Const";
 
 import Tabs, { tabsClasses } from '@mui/material/Tabs';
@@ -31,18 +32,18 @@ const App = () => {
   };
 
   const renderChapterTabs = () => {
-    return [...Array(NUM_CHAPS).keys()].map((i) => (
+    return [...Array(NUM_CHAPS + 1).keys()].map((i) => (
       <Tab 
-        key={i}
-        label={`${CHAP_TEXT} ${i + 1}`} 
+        key={i - 1}
+        label={`${i === 0 ? "" : CHAP_TEXT} ${i === 0 ? ALL_TEXT : i}`} 
       />
     ))
   };
 
   const renderConditionalChaps = () => {
     return lessonData.map((tup, index) => (
-      <div key={index}>
-        {value === index && (
+      <div key={index + 1}>
+        {value === index + 1 && (
           <Chapter
             py={tup[PY]}
             chars={tup[CHARS]}
@@ -76,6 +77,19 @@ const App = () => {
               {renderChapterTabs()}
             </Tabs>
           </Box>
+
+          {value === 0 && (
+            lessonData.map((tup, index) => (
+              <Chapter
+                key={index + 1}
+                py={tup[PY]}
+                chars={tup[CHARS]}
+                trans={tup[TRANS]}
+                sents={tup[SENTS]}
+                chap={index + 1}
+              />
+            )))
+          }
 
           {renderConditionalChaps()}
         </ContentWrapper>

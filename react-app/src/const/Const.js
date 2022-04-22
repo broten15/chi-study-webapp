@@ -26,6 +26,7 @@ export const SENTS = 3;
 
 export const NUM_CHAPS = lessonData.length;
 export const CHAP_TEXT = "Chapter";
+export const ALL_TEXT = "All";
 
 export const TERM_DELIM = "{}";
 

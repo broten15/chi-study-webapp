@@ -30,7 +30,6 @@ const Chapter = (props) => {
 
   return (
     <div>
-      {/* {console.log(chars.length)} */}
       <Box sx={{ borderBottom: 1, borderColor: 'divider' }}>
         <Tabs value={value} onChange={handleChange}>
           <Tab label="Vocab" />
