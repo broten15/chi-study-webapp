@@ -242,16 +242,16 @@ whenever; as soon as; once .... then ....
 As soon as he has finished calling, please go in.
 *Used with one subject
 (1) 
-我一吃涼的東西(我)就不舒服。 
+我一吃涼的東西[我]就不舒服。 
 As soon as I eat cold things, I don't feel well.
 (2) 
-我一看書(我)就想睡覺。 
+我一看書[我]就想睡覺。 
 As soon as I start reading, I want to sleep.
 (3) 
-(我)一想到這件事我就生氣。
+[我]一想到這件事我就生氣。
 As soon as I think about this I get angry.
 (4)
-(我)一打電話我就緊張。 
+[我]一打電話我就緊張。 
 As soon as I call I get nervous.
 *Used with two different subjects
 (5)
@@ -328,8 +328,8 @@ We will notify you of the results within a week.
 在一個星期之内我得把報告寫完。 
 I must finish writing my paper within a week.
 (2) 
-他在一個月之内能不能把那本書翻譯完? C
-an he finish translating that book within one month?
+他在一個月之内能不能把那本書翻譯完? 
+Can he finish translating that book within one month?
 (3)
 在三哩之内你找不到別的中國飯館。 
 You couldn't find another Chinese restaurant within three miles.`,
