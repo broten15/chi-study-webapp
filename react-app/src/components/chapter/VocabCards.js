@@ -19,7 +19,7 @@ export default function BasicCard(props) {
     <div>
       {chars.map((char, index) => (
         <Card 
-          key={char}
+          key={char + index}
           sx={{ marginTop: 2, 
                 marginBottom: 2, 
                 marginLeft: 1, 

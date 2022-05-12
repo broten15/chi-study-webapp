@@ -56,6 +56,28 @@ const App = () => {
     ))
   };
 
+  const renderAllLessons = () => {
+    const allLessonData = [[],[],[],[]]
+    lessonData.forEach((tup, index) => {
+      allLessonData[PY] = allLessonData[PY].concat(tup[PY])
+      allLessonData[CHARS] = allLessonData[CHARS].concat(tup[CHARS])
+      allLessonData[TRANS] = allLessonData[TRANS].concat(tup[TRANS])
+      allLessonData[SENTS] = allLessonData[SENTS].concat(tup[SENTS])
+    })
+    console.log(allLessonData)
+    return (
+      // <div>hello</div>
+      <Chapter
+        py={allLessonData[PY]}
+        chars={allLessonData[CHARS]}
+        trans={allLessonData[TRANS]}
+        sents={allLessonData[SENTS]}
+        chap={0 }
+      />
+    );
+
+  };
+
   return (
     <div>
       <Router>
@@ -79,17 +101,8 @@ const App = () => {
           </Box>
 
           {value === 0 && (
-            lessonData.map((tup, index) => (
-              <Chapter
-                key={index + 1}
-                py={tup[PY]}
-                chars={tup[CHARS]}
-                trans={tup[TRANS]}
-                sents={tup[SENTS]}
-                chap={index + 1}
-              />
-            )))
-          }
+            renderAllLessons() // change this to comp later
+          )}
 
           {renderConditionalChaps()}
         </ContentWrapper>
