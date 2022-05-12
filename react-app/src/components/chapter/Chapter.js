@@ -18,7 +18,7 @@ const Chapter = (props) => {
   const checkLength = (l1, l2, l3) => {
     let length = l1.length;
     let result = true;
-    console.log(`py ${l1.length}, chars ${l2.length}, trans ${l3.length}`)
+    // console.log(`py ${l1.length}, chars ${l2.length}, trans ${l3.length}`)
     if (l2.length !== length) {
       result = false;
     }

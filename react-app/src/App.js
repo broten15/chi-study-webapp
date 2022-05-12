@@ -64,9 +64,7 @@ const App = () => {
       allLessonData[TRANS] = allLessonData[TRANS].concat(tup[TRANS])
       allLessonData[SENTS] = allLessonData[SENTS].concat(tup[SENTS])
     })
-    console.log(allLessonData)
     return (
-      // <div>hello</div>
       <Chapter
         py={allLessonData[PY]}
         chars={allLessonData[CHARS]}

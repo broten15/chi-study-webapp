@@ -110,9 +110,9 @@ const PatternText = (props) => {
     const comps = [];
     
     while (i < lines.length) {
-      console.log(i)
+      // console.log(i)
       if (isHeaderEx(i)) {
-        console.log("is header example")
+        // console.log("is header example")
         comps.push(
           <SingleEx
             i={i}
@@ -124,7 +124,7 @@ const PatternText = (props) => {
         i += 2;
 
       } else if (isSubHeader(i)) {
-        console.log("is sub header")
+        // console.log("is sub header")
         comps.push(
           <Header
             eng={lines[i]}
@@ -135,7 +135,7 @@ const PatternText = (props) => {
         i += 1;
 
       } else if (isSingleEx(i)) {
-        console.log("is single example")
+        // console.log("is single example")
         comps.push(
           <SingleEx
             i={i}
@@ -146,7 +146,7 @@ const PatternText = (props) => {
         i += 3;  
 
       } else if (isABEx(i)) {
-        console.log("in ab ex")
+        // console.log("in ab ex")
         const abLength = getABLength(i);
         comps.push(          
           <ABEx
@@ -160,7 +160,7 @@ const PatternText = (props) => {
 
       // TODO: deal with AB pattern
       } else {
-        console.log("is else")
+        // console.log("is else")
         comps.push(
           <SingleEx
             i={i}
